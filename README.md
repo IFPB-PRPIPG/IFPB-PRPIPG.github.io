@@ -2,7 +2,7 @@
 
 # Configurando ambiente  
 
-Abaixo segue tutorial de instalação do ambiente para desenvolvimento dessa página web.
+Abaixo segue o tutorial de instalação do ambiente para desenvolvimento dessa página web.
 
 ## Instalando a linguagem de programação Ruby na versão 2.5.0  
 
