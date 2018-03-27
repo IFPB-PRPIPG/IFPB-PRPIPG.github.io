@@ -75,9 +75,14 @@ Using /usr/local/rvm/gems/ruby-2.5.0
 bash: /usr/local/rvm/rubies/ruby-2.5.0/bin/gem: /home/travis/.rvm/rubies/ruby-2.5.0/bin/ruby: bad interpreter: No such file or directory
 ```
 
-Se faz necessário reinstalar da versão: [Fonte](https://github.com/rvm/rvm/issues/4291)
+Se faz necessário reinstalar a versão: [Fonte](https://github.com/rvm/rvm/issues/4291)
 ```
 $ rvm reinstall 2.5 --disable-binary
+```
+
+E por fim:
+```
+$ rvm use 2.5.0
 ```
 
 ### Windows
