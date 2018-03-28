@@ -14,14 +14,14 @@ $ sudo apt-get install ruby-full
 ```
 No momento em que foi escrita esta página, o pacote ruby-full instalava a versão 2.3.1 do Ruby, a versão que queremos é a 2.5.0. Para mudar a versão é aconselhável utilizar o RVM([Ruby Version Manager](https://rvm.io/rvm/install)).
 
-#### Instalando o RVM ([Fonte](https://rvm.io/rvm/install))
+#### 1 - Instalando o RVM ([Fonte](https://rvm.io/rvm/install))
 
 Para instalar a versão mais estável do RVM:
 ```
 $ \curl -sSL https://get.rvm.io | bash -s stable
 ```
 
-#### Instalando o RVM **Opção** ([Fonte](https://github.com/rvm/ubuntu_rvm))
+#### 1.1 - Outra forma de instalação do RVM ([Fonte](https://github.com/rvm/ubuntu_rvm))
 
 Para instalar o RVM:
 ```
@@ -51,7 +51,7 @@ $ rvm install ruby
 
 Entretanto no momento em que foi escrita esta página o RVM efetuava a instalação do Ruby 2.4.1.
 
-#### Instalando a versão 2.5.0 usando o RVM
+#### 2 - Instalando a versão 2.5.0 usando o RVM
 
 Para instalar a versão 2.5.0:
 ```
@@ -81,7 +81,23 @@ Se faz necessário reinstalar a versão desejada: **([Fonte](https://github.com/
 $ rvm reinstall 2.5.0 --disable-binary
 ```
 
+#### 3 - Instalando Bundler
+
+O bundler tem como objetivo gerenciar as gem da sua aplicação. Para fazer a sua instalação:
+```
+$ gem bundler install
+```
+
+#### 4 - Instalando as dependências do projeto
+
+Agora que temos o bundler no nosso ambiente de trabalho podemos instalar todas as depêndencias do projeto. Primeiro temos que ir para o mesmo diretório do arquivo **Gemfile** e então:
+```
+$ bundler install
+```
+
 ### Windows
 
 Existe a possibilidade de instalar através desse executável: [Ruby Installer](https://rubyinstaller.org/)  
 Escolha a versão 2.5.0 do ruby.
+
+##### Esse parte do tutorial ainda está em andamento.
