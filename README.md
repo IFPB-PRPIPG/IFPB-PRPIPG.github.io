@@ -88,11 +88,25 @@ O bundler tem como objetivo gerenciar as gem da sua aplicação. Para fazer a su
 $ gem bundler install
 ```
 
-#### 4 - Instalando as dependências do projeto
+#### 4 - Clonando projeto
 
-Agora que temos o bundler no nosso ambiente de trabalho podemos instalar todas as depêndencias do projeto. Primeiro temos que ir para o mesmo diretório do arquivo **Gemfile** e então:
+Para clonar o projeto:
+```
+$ git clone https://github.com/IFPB-PRPIPG/IFPB-PRPIPG.github.io.git
+```
+
+#### 5 - Instalando as dependências do projeto
+
+Agora que temos o projeto e bundler no nosso ambiente de trabalho já podemos instalar todas as depêndencias. Primeiro temos que ir para o mesmo diretório do arquivo **Gemfile** e então:
 ```
 $ bundler install
+```
+
+#### 6 - Iniciar servidor
+
+Para iniciar o Jekyll:
+```
+$ bundle exec jekyll serve
 ```
 
 ### Windows
