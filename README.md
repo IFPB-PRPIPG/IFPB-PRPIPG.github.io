@@ -2,7 +2,7 @@
 
 # Configurando ambiente  
 
-Abaixo segue o tutorial de instalação do ambiente para desenvolvimento dessa página web.
+Abaixo segue o tutorial de instalação do ambiente de desenvolvimento da página web do Núcleo de Desenvolvimento de Soluções Tecnológicas.
 
 ## Instalando a linguagem de programação Ruby na versão 2.5.0  
 
@@ -20,6 +20,7 @@ Para instalar a versão mais estável do RVM:
 ```
 $ \curl -sSL https://get.rvm.io | bash -s stable
 ```
+
 #### Instalando o RVM **Opção** ([Fonte](https://github.com/rvm/ubuntu_rvm))
 
 Para instalar o RVM:
@@ -27,15 +28,15 @@ Para instalar o RVM:
 $ sudo apt-add-repository -y ppa:rael-gc/rvm
 $ sudo apt-get update
 $ sudo apt-get install rvm
-
 ```
-Agora  necessário mudar o terminal para que sempre efetue o login.
+
+Agora se faz necessário efetuar mudanças no terminal para que tenhamos acesso ao pacote **rvm**.
 
 Vá até o terminal, clique em ```Edit``` > ```Profile Preferences``` > ```Command``` > ```Run command as a login shell```
 
 ![Terminal](https://github.com/IFPB-PRPIPG/IFPB-PRPIPG.github.io/blob/setup/assets/img/terminal.png)
 
-Após isso se faz necessário efetuar logout e login.
+Após isso temos que efetuar logout e login.
 
 Para testar se tudo ocorreu como esperado:
 ``` 
@@ -57,13 +58,13 @@ Para instalar a versão 2.5.0:
 $ rvm install ruby-2.5.0
 ```
 
-Testando se a instalação foi efetuada com sucesso:
+Agora precisamos testar se a instalação foi efetuada com sucesso:
 ```
 $ ruby -v
 ruby 2.5.0
 ```
 
-Caso a resposta não seja a versão que você instalou e sim outra versão podemos efetuar a mudança através do RVM:
+Caso a resposta não seja a versão que você instalou podemos efetuar a mudança através do RVM:
 ```
 $rvm use 2.5.0
 Using /home/${user}/.rvm/gems/ruby-2.5.0
@@ -75,14 +76,9 @@ Using /usr/local/rvm/gems/ruby-2.5.0
 bash: /usr/local/rvm/rubies/ruby-2.5.0/bin/gem: /home/travis/.rvm/rubies/ruby-2.5.0/bin/ruby: bad interpreter: No such file or directory
 ```
 
-Se faz necessário reinstalar a versão: [Fonte](https://github.com/rvm/rvm/issues/4291)
+Se faz necessário reinstalar a versão desejada: **([Fonte](https://github.com/rvm/rvm/issues/4291))**
 ```
-$ rvm reinstall 2.5 --disable-binary
-```
-
-E por fim:
-```
-$ rvm use 2.5.0
+$ rvm reinstall 2.5.0 --disable-binary
 ```
 
 ### Windows
