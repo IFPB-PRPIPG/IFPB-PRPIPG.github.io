@@ -83,5 +83,5 @@ $ rvm reinstall 2.5.0 --disable-binary
 
 ### Windows
 
-Existe a possibilidade de instalar através desse executável: [Ruby Installer](https://rubyinstaller.org/)
+Existe a possibilidade de instalar através desse executável: [Ruby Installer](https://rubyinstaller.org/)  
 Escolha a versão 2.5.0 do ruby.
