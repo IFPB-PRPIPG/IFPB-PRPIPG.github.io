@@ -8,12 +8,12 @@ Esta é nossa base de conhecimento. Abaixo você entenderá como contribuir para
 O método de instalação a seguir cria uma espécie de _sandbox_ na sua home em: ~/.rvm. O que garante um ambiente mais isolado.
 
 # Requerimentos/Instalação [Debian/Ubuntu]
- - [Do sistema operacional](https://rvm.io/rvm/prerequisites)
- - Do ambiente
+- [Do sistema operacional](https://rvm.io/rvm/prerequisites)
+- Do ambiente
   - RVM - Ruby Version Manager
   - Ruby
   - Bundler - Gerenaciar as _gems_ do projeto
- - Do projeto
+- Do projeto
   - _Gemfile_ - _Gems_ do projeto
 
 ## RVM
