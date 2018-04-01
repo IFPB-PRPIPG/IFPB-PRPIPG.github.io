@@ -1,103 +1,66 @@
-# Treinamentos PRPIGP  
+# Base de conhecimento NDST (IFPB-PRPIPG)
 
-# Configurando ambiente  
+Esta é nossa base de conhecimento. Abaixo você entenderá como contribuir para esta base de conhecimento.
 
-Abaixo segue o tutorial de instalação do ambiente de desenvolvimento da página web do Núcleo de Desenvolvimento de Soluções Tecnológicas.
+# NOTA
+>**Não utilize _apt-get_** para instalar pacotes _Ruby, Gems ou Rails_ tanto no Debian como no Ubuntu. **Este sistema está desatualizado** e pode gerar dores de cabeça.
 
-## Instalando a linguagem de programação Ruby na versão 2.5.0  
+O método de instalação a seguir cria uma espécie de _sandbox_ na sua home em: ~/.rvm. O que garante um ambiente mais isolado.
 
-### Debian ou Ubuntu
+# Requerimentos/Instalação [Debian/Ubuntu]
+ - [Do sistema operacional](https://rvm.io/rvm/prerequisites)
+ - Do ambiente
+  - RVM - Ruby Version Manager
+  - Ruby
+  - Bundler - Gerenaciar as _gems_ do projeto
+ - Do projeto
+  - _Gemfile_ - _Gems_ do projeto
 
-O Debian GNU/Linux e o Ubuntu usam o gerenciador de pacotes apt. Sendo assim podemos instalar o ruby dessa forma:
-```
-$ sudo apt-get install ruby-full
-```
-No momento em que foi escrita esta página, o pacote ruby-full instalava a versão 2.3.1 do Ruby, a versão que queremos é a 2.5.0. Para mudar a versão é aconselhável utilizar o RVM([Ruby Version Manager](https://rvm.io/rvm/install)).
+## RVM
+```sh
+# Chave para segurar os Repositórios
+$ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 
-#### 1 - Instalando o RVM ([Fonte](https://rvm.io/rvm/install))
+# RVM
+$ curl -sSL https://get.rvm.io | bash -s stable
 
-Para instalar a versão mais estável do RVM:
-```
-$ \curl -sSL https://get.rvm.io | bash -s stable
-```
+# Ative o ambiente (Não precisa fazer toda vez)
+$ source /home/kelvin/.rvm/scripts/rvm
 
-#### 1.1 - Outra forma de instalação do RVM ([Fonte](https://github.com/rvm/ubuntu_rvm))
-
-Para instalar o RVM:
-```
-$ sudo apt-add-repository -y ppa:rael-gc/rvm
-$ sudo apt-get update
-$ sudo apt-get install rvm
-```
-
-Agora se faz necessário efetuar mudanças no terminal para que tenhamos acesso ao pacote **rvm**.
-
-Vá até o terminal, clique em ```Edit``` > ```Profile Preferences``` > ```Command``` > ```Run command as a login shell```
-
-![Terminal](https://github.com/IFPB-PRPIPG/IFPB-PRPIPG.github.io/blob/setup/assets/img/terminal.png)
-
-Após isso temos que efetuar logout e login.
-
-Para testar se tudo ocorreu como esperado:
-``` 
+# Verifique a instalação / Resultado
 $ rvm -v
-rvm 1.29.3 (manual) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
-```
+# returns: rvm 1.29.3 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
 
-**Podemos** instalar o Ruby através do RVM:
 ```
-$ rvm install ruby
-```
+**Outras opções de instalação disponíveis [aqui](https://rvm.io/rvm/install).**
 
-Entretanto no momento em que foi escrita esta página o RVM efetuava a instalação do Ruby 2.4.1.
+## Ruby
 
-#### 2 - Instalando a versão 2.5.0 usando o RVM
-
-Para instalar a versão 2.5.0:
-```
+```sh
+# Instale o Ruby através do RVM
 $ rvm install ruby-2.5.0
+
+# Garanta que está utilizando a versão correta
+$ rvm use 2.5.0
+# returns: Using /home/kelvin/.rvm/gems/ruby-2.5.0
 ```
 
-Agora precisamos testar se a instalação foi efetuada com sucesso:
-```
-$ ruby -v
-ruby 2.5.0
+## Bundler
+
+O bundler tem como objetivo gerenciar as _gems_ da sua aplicação. Para fazer a sua instalação:
+```sh
+$ gem install bundler
 ```
 
-Caso a resposta não seja a versão que você instalou podemos efetuar a mudança através do RVM:
-```
-$rvm use 2.5.0
-Using /home/${user}/.rvm/gems/ruby-2.5.0
-```
+## Gemfile
 
-Caso a resposta do ```$rvm use 2.5.0``` seja algo como:
-```
-Using /usr/local/rvm/gems/ruby-2.5.0
-bash: /usr/local/rvm/rubies/ruby-2.5.0/bin/gem: /home/travis/.rvm/rubies/ruby-2.5.0/bin/ruby: bad interpreter: No such file or directory
-```
-
-Se faz necessário reinstalar a versão desejada: **([Fonte](https://github.com/rvm/rvm/issues/4291))**
-```
-$ rvm reinstall 2.5.0 --disable-binary
-```
-
-#### 3 - Instalando Bundler
-
-O bundler tem como objetivo gerenciar as gem da sua aplicação. Para fazer a sua instalação:
-```
-$ gem bundler install
-```
-
-#### 4 - Instalando as dependências do projeto
-
-Agora que temos o bundler no nosso ambiente de trabalho podemos instalar todas as depêndencias do projeto. Primeiro temos que ir para o mesmo diretório do arquivo **Gemfile** e então:
-```
+Agora que temos o _bundler_ no nosso ambiente de trabalho podemos instalar todas as dependências do projeto. Dentro deste repositório existe um **_Gemfile_**, agora basta executar:
+```sh
 $ bundler install
 ```
 
-### Windows
+# Requerimentos (Windows)
+>**Aguardando contribuição...**
 
 Existe a possibilidade de instalar através desse executável: [Ruby Installer](https://rubyinstaller.org/)  
 Escolha a versão 2.5.0 do ruby.
-
-##### Esse parte do tutorial ainda está em andamento.
