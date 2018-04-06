@@ -25,7 +25,7 @@ $ gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804B
 $ curl -sSL https://get.rvm.io | bash -s stable
 
 # Ative o ambiente (Não precisa fazer toda vez)
-$ source /home/kelvin/.rvm/scripts/rvm
+$ source /home/user/.rvm/scripts/rvm
 
 # Verifique a instalação / Resultado
 $ rvm -v
@@ -42,7 +42,7 @@ $ rvm install ruby-2.5.0
 
 # Garanta que está utilizando a versão correta
 $ rvm use 2.5.0
-# returns: Using /home/kelvin/.rvm/gems/ruby-2.5.0
+# returns: Using /home/user/.rvm/gems/ruby-2.5.0
 ```
 
 ## Bundler
