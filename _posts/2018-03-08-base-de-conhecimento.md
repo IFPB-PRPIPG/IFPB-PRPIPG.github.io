@@ -5,7 +5,6 @@ introduction: "O que é essa plataforma? Qual a sua importância? E por quais mo
 description: "A descrição desse post foi construída com a ferramenta lorem ipsum. No momento estamos testando as funcionalidades do blog. Agradecemos pela sua paciência."
 date: 2018-03-08 12:00:00
 main-class: 'jekyll'
-color: '#B31917'
 tags:
 - jekyll
 author_img: 'pedro.png'
@@ -36,4 +35,4 @@ Ut eu iaculis massa.
 
 Praesent mauris ipsum, rutrum at ante et, hendrerit porta quam. Pellentesque ipsum enim, vehicula euismod posuere sit amet, porta vel eros. Fusce efficitur lacinia eleifend. Mauris tempus lorem id tellus lacinia placerat. Donec sollicitudin gravida velit, in laoreet tellus cursus a. Nunc fringilla erat ligula, nec hendrerit neque molestie ut. Nunc varius tellus faucibus leo bibendum placerat. In augue metus, viverra id ornare hendrerit, blandit sed erat. Phasellus malesuada tempor purus, ac porta velit dignissim sagittis. Duis aliquam aliquet orci. Vivamus eu quam in turpis aliquet pulvinar nec vel neque. Vivamus a tempus [ipsum][lorem-ipsum].
 
-[lorem-ipsum]:    https://br.lipsum.com/feed/html
+[lorem-ipsum]: https://br.lipsum.com/feed/html
