@@ -11,7 +11,7 @@ author_img: 'pedro.png'
 author: 'Pedro Paiva'
 github_username: 'VSPPedro'
 author_email: 'pedro.vinicius@academico.ifpb.edu.br'
-twitter_text: ''
+twitter_text: 'O que é a plataforma Base de Conhecimento?'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id consectetur augue. Proin finibus, massa ac semper ultricies, libero mi semper urna, vel placerat dolor sapien et nunc. Nam lorem lectus, sagittis non finibus non, facilisis eget nunc. Morbi eu turpis ut nulla porttitor `tincidunt`. Sed lacinia dui nec nulla tempus, vitae gravida quam pellentesque. Duis in arcu venenatis, gravida felis eget, maximus sapien. In ullamcorper metus eros, non molestie justo dignissim eu. Curabitur placerat nunc et magna imperdiet, eget vulputate leo euismod. Suspendisse ultrices in justo non vehicula.
