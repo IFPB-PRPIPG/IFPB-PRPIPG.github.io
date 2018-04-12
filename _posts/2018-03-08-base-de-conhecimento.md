@@ -15,9 +15,9 @@ author_email: 'kelvin.romero@academico.ifpb.edu.br'
 twitter_text: '"Se eu vi mais longe, foi por estar sobre ombros de gigantes." - Isaac Newton'
 comments: true
 ---
-
+<center>
 Achou que iria ficar perdido na hora desenvolver aqui?
-
+</center>
   ![Achou errado otário!][achou-errado]
 
 Acreditamos firmemente que ninguém deveria entrar em um projeto sem entender o **PORQUE** deste projeto. Obviamente, além disso sabemos a importância de demonstrarmos **COMO** e **O QUE** desenvolvemos. A base de conhecimento tem como objetivo compartilhar o conhecimento de todos os pesquiasdores e estagiários envolvidos nos projetos da Núcleo de Desenvolvimento de Soluçõs Técnológicas da Pró-reitoria de Pesquisa, Inovação e Pós-Graduação do IFPB.
