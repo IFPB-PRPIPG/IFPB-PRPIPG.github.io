@@ -56,6 +56,7 @@ $ gem install bundler
 
 Agora que temos o _bundler_ no nosso ambiente de trabalho podemos instalar todas as dependências do projeto. Dentro deste repositório existe um **_Gemfile_**, agora basta executar:
 ```sh
+$ cd IFPB-PRPIPG.github.io/
 $ bundler install
 ```
 
