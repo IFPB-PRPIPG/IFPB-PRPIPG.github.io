@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Por que Base de conhecimento?"
 introduction: "O que é essa plataforma? Qual a sua importância? E por quais motivo devemos mantê-la?"
 description: "A descrição desse post foi construída com a ferramenta lorem ipsum. No momento estamos testando as funcionalidades do blog. Agradecemos pela sua paciência."
