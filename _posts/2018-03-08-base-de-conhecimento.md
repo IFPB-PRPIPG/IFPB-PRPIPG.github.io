@@ -20,13 +20,13 @@ Achou que iria ficar perdido na hora desenvolver aqui?
 </center>
   ![Achou errado otário!][achou-errado]
 
-Acreditamos firmemente que ninguém deveria entrar em um projeto sem entender o **PORQUE** deste projeto. Obviamente, além disso sabemos a importância de demonstrarmos **COMO** e **O QUE** desenvolvemos. A base de conhecimento tem como objetivo compartilhar o conhecimento de todos os pesquisadores e estagiários envolvidos nos projetos da Núcleo de Desenvolvimento de Soluçõs Técnológicas da Pró-reitoria de Pesquisa, Inovação e Pós-Graduação do IFPB.
+Acreditamos firmemente que ninguém deveria entrar em um projeto sem entender o **PORQUE** deste projeto. Obviamente, além disso sabemos a importância de demonstrarmos **COMO** e **O QUE** desenvolvemos. A base de conhecimento tem como objetivo compartilhar o conhecimento de todos os pesquisadores e estagiários envolvidos nos projetos do Núcleo de Desenvolvimento de Soluções Técnológicas da Pró-reitoria de Pesquisa, Inovação e Pós-Graduação do IFPB.
 
 # Como contribuir
 
 Caso já esteja familiarizado com o desenvolvimento utilizando Jekyll e [está com seu ambiente pronto pra isso][como-configurar], demonstramos abaixo em 2 simples passos como criar um post aqui.
 
-Utilize o script para criar o arquivo de post já no local certo e com o nome que segue as convenções (Dentro do repositório que você baixou):
+Utilize o script para criar o arquivo de post já no local certo e com o nome que segue as convenções (dentro do repositório que você baixou):
 ```
 $ ./initpost.sh -c Título da postagem
 ```
