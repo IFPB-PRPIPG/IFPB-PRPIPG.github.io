@@ -41,6 +41,6 @@ $ ls _posts/
 Agora é só uma questão de editar o arquivo da sua postagem. Um tutorial mais compreensivo está [disponível aqui][como-postar]!
 
 
-[como-configurar]:https://github.com/IFPB-PRPIPG/IFPB-PRPIPG.github.io
+[como-configurar]:https://github.com/IFPB-PRPIPG/IFPB-PRPIPG.github.io#requerimentosinstala%C3%A7%C3%A3o-debianubuntu
 [como-postar]:/
 [achou-errado]:/assets/img/posts/achou-errado.jpg
