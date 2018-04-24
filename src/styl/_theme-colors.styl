@@ -5,7 +5,8 @@ themes = {
     post-html: #EB7728,
     post-svg: #7D669E,
     post-dev: #637a91,
-    post-misc: #7AAB13
+    post-misc: #7AAB13,
+    post-docker: #077cbc
 }
 
 for theme, category-color in themes
@@ -45,15 +46,15 @@ for theme, category-color in themes
         .share a
             &:hover svg
                 fill category-color
-                
+
         body
-            &.search-overlay 
+            &.search-overlay
                 &:after
                     +below(cut)
                         background-color category-color
         .icon-menu
             fill category-color
-            
+
         .box-body
             h2
                 color category-color
