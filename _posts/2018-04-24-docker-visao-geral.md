@@ -4,7 +4,7 @@ title: 'Docker visão geral'
 introduction: 'Visão geral sobre o Docker no Windows.'
 description: 'Uma visão geral e resumida sobre como usar o Docker, com foco no Windows.'
 date: 2018-03-08 12:00:00
-main-class: 'docker'
+main-class: 'misc'
 tags:
 - docker
 - windows
