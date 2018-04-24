@@ -18,7 +18,7 @@ comments: true
 
 # Vocabulário
 
-- Docker image: Funciona como uma planta, para contruir um container.
+- Docker image: Funciona como uma planta, para construir um container.
 - Docker container: É uma imagem em execução (basicamente um processo);
 
 # Comandos básicos
