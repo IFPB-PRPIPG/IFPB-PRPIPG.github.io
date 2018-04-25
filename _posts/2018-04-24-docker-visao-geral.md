@@ -14,6 +14,7 @@ github_username: 'kelvinromero'
 author_email: 'kelvin.romero@academico.ifpb.edu.br'
 twitter_text: 'Docker, por onde começar no Linux ou Windows.'
 comments: true
+image: '/assets/img/posts/containerxvm.jpg'
 ---
 
 # O que é o Docker
