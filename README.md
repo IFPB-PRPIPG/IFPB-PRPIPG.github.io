@@ -60,6 +60,19 @@ $ cd IFPB-PRPIPG.github.io/
 $ bundler install
 ```
 
+# Rodando o ambiente
+
+```sh
+$ jekyll serve --watch
+```
+
+# Criando novo post
+
+```sh
+$ ./initpost.sh -c Título da postagem
+```
+Mais detalhes [aqui](https://ifpb-prpipg.github.io/2018/03/08/base-de-conhecimento.html).
+
 # Requerimentos (Windows)
 >**Aguardando contribuição...**
 
