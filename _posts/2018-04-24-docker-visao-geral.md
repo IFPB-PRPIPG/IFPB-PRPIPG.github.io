@@ -3,11 +3,13 @@ layout: post
 title: 'Docker visão geral'
 introduction: 'Docker visão geral.'
 description: 'Por onde começar, no Windows ou Linux.'
-date: 2018-03-08 12:00:00
+date: 2018-04-24 12:00:00
 main-class: 'misc'
 tags:
 - docker
 - windows
+- linux
+- mac
 author_img: 'kelvin.png'
 author: 'Kelvin Romero'
 github_username: 'kelvinromero'
