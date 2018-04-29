@@ -33,6 +33,8 @@ comments: true
 | docker run hello-world | Executa o container Hello World (Que indica que a instalação está funcionando bem).
 | docker image ls | Lista todas as imagens disponíveis localmente.
 | docker container ls --all | Lista todos os containers (Imagens em execução ou executadas).
+| docker container rm CONTAINER_NAME | Remove o container, onde o CONTAINER_NAME pode ser visto ao listar, na última coluna.
+
 
 # Específicos do Windows
 ## Conseguindo o Docker
