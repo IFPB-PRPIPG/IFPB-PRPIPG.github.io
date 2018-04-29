@@ -59,6 +59,29 @@ Instruções para instalação do Docker Community Edition (gratuito):
 
 # Comandos básicos
 
+<<<<<<< HEAD
+| Command | Output
+| ------- | ------
+| docker | Lista todos os comandos disponíveis
+| docker COMMAND --help | Retorna ajuda de um dado COMMAND.
+| docker version | Informações de versão do cliente e do servidor.
+| docker info | Informações detalhadas do cliente e do servidor.
+| docker --version | Informações da build.
+| docker run hello-world | Executa o container Hello World (Que indica que a instalação está funcionando bem).
+| docker image ls | Lista todas as imagens disponíveis localmente.
+| docker container ls --all | Lista todos os containers (Imagens em execução ou executadas).
+| docker container rm CONTAINER_NAME | Remove o container, onde o CONTAINER_NAME pode ser visto ao listar, na última coluna.
+
+
+# Específicos do Windows
+## Conseguindo o Docker
+
+- Para o Windows 10 edição HOME : [Docker toolbox](https://docs.docker.com/toolbox/toolbox_install_windows/)
+- Para o Windows 10 edição PROFESSIONAL : [Docker Community edition](https://docs.docker.com/docker-for-windows/install/)
+ - É preciso habilitar o Hyper-V: [Siga as instruções aqui](https://blogs.technet.microsoft.com/canitpro/2015/09/08/step-by-step-enabling-hyper-v-for-use-on-windows-10/).
+
+## Mais coisa em breve...
+=======
  | Command | Output
  | ------- | ------
  | docker | Lista todos os comandos disponíveis
@@ -80,3 +103,4 @@ Instruções para instalação do Docker Community Edition (gratuito):
 [get-docker-centos]:https://docs.docker.com/install/linux/docker-ce/centos/
 [get-docker-fedora]:https://docs.docker.com/install/linux/docker-ce/fedora/
 [get-docker-mac]:https://docs.docker.com/docker-for-mac/install/
+>>>>>>> 6010f34a3a2891aa8a1028b15c4c51f2566bc3a4
