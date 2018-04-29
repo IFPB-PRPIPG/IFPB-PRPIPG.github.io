@@ -2,7 +2,7 @@
 
 Esta é nossa base de conhecimento. Abaixo você entenderá como contribuir para esta base de conhecimento.
 
-# NOTA
+# IMPORTANTE
 >**Não utilize _apt-get_** para instalar pacotes _Ruby, Gems ou Rails_ tanto no Debian como no Ubuntu. **Este sistema está desatualizado** e pode gerar dores de cabeça.
 
 O método de instalação a seguir cria uma espécie de _sandbox_ na sua home em: ~/.rvm. O que garante um ambiente mais isolado.
@@ -78,3 +78,31 @@ Mais detalhes [aqui](https://ifpb-prpipg.github.io/2018/03/08/base-de-conhecimen
 
 Existe a possibilidade de instalar através desse executável: [Ruby Installer](https://rubyinstaller.org/)  
 Escolha a versão 2.5.0 do ruby.
+
+# Requerimentos Docker
+> O Dockerfile presente nesse repositório ainda **não está pronto**.
+
+Atualmente o Docker deste projeto só consegue instalar as dependências e exibir a página pronta com os comandos que serão demonstrados em seguida. Porém ainda não conseguimos sincronizar as alterações de conteúdo.
+
+Tendo o Docker cliente e server instalado na sua máquina, dentro deste repositório execute os seguintes comandos:
+
+```sh
+# Construção do container
+$ docker build -t NOME_CONTAINER .
+
+# Execução do container
+$ docker run -it --rm -p 80:80 -v ABSOLUTE/PATH/TO/IFPB-PRPIPG.github.io:/app NOME_CONTAINER
+```
+
+**Explicação dos comandos**
+- Construção do container
+  - -t : Argumento que aguarda o nome do container.
+- Execução do container
+  - -it : interativo
+  - --rm : ao concluir a execução remove o container
+  - -p : porta 80 localhost para 80 do container
+  - -v : Volume que aguarda o caminho absoluto do código no host, seguido de dois pontos, caminho absoluto no container
+
+## IMPORTANTE
+> Ainda é apenas experimental. A execução ainda não está garantida, mas serve para fazer testes de posts antes de subir para o github caso você não queira instalar o Ruby e suas dependências no sistema operacional que você usa.
+
