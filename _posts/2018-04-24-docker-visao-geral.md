@@ -81,4 +81,3 @@ Instruções para instalação do Docker Community Edition (gratuito):
 [get-docker-centos]:https://docs.docker.com/install/linux/docker-ce/centos/
 [get-docker-fedora]:https://docs.docker.com/install/linux/docker-ce/fedora/
 [get-docker-mac]:https://docs.docker.com/docker-for-mac/install/
->>>>>>> 6010f34a3a2891aa8a1028b15c4c51f2566bc3a4
