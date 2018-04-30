@@ -80,29 +80,27 @@ Existe a possibilidade de instalar através desse executável: [Ruby Installer](
 Escolha a versão 2.5.0 do ruby.
 
 # Requerimentos Docker
-> O Dockerfile presente nesse repositório ainda **não está pronto**.
 
-Atualmente o Docker deste projeto só consegue instalar as dependências e exibir a página pronta com os comandos que serão demonstrados em seguida. Porém ainda não conseguimos sincronizar as alterações de conteúdo.
+- Instale o docker para seu S.O.: [Instruções](https://ifpb-prpipg.github.io/2018/04/24/docker-visao-geral.html)
 
-Tendo o Docker cliente e server instalado na sua máquina, dentro deste repositório execute os seguintes comandos:
+> IMPORTANTE: A reconstrução só funciona corretamente no Linux. Windows não consegue sincronizar os arquivos automaticamente. É necessário reiniciar o container manualmente.
+
 
 ```sh
-# Construção do container
-$ docker build -t NOME_CONTAINER .
+# Copie o repositório
+$ git clone https://github.com/IFPB-PRPIPG/IFPB-PRPIPG.github.io
 
-# Execução do container
-$ docker run -it --rm -p 80:80 -v ABSOLUTE/PATH/TO/IFPB-PRPIPG.github.io:/app NOME_CONTAINER
+# Acesse a pasta
+$ cd IFPB-PRPIPG.github.io
+
+# Rode o container (Diretamente do repositório DOCKER da NDST)
+$ docker run -it --rm -p 4000:4000 -v ${PWD}:/app ndst/bdc:stable
 ```
 
 **Explicação dos comandos**
-- Construção do container
-  - -t : Argumento que aguarda o nome do container.
+
 - Execução do container
   - -it : interativo
   - --rm : ao concluir a execução remove o container
   - -p : porta 80 localhost para 80 do container
   - -v : Volume que aguarda o caminho absoluto do código no host, seguido de dois pontos, caminho absoluto no container
-
-## IMPORTANTE
-> Ainda é apenas experimental. A execução ainda não está garantida, mas serve para fazer testes de posts antes de subir para o github caso você não queira instalar o Ruby e suas dependências no sistema operacional que você usa.
-
