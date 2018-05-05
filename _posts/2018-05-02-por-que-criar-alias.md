@@ -100,14 +100,18 @@ $ source aliasesmanager.sh
 
 ## Executou sem erro? Hora de testar!
 
-- **Não dava para juntar esses três comandos em um não?**
+O que achou?
+
+- **Não dava para juntar esses três comandos em um só não?**
 - **E como que eu faço para que o arquivo aliasesmanager.sh seja executado quando minha máquina iniciar?**
-- **Meu alias estão tomando controle do terminal, o que faço?**
-- **E a desculpa para o café, cadê?**
+- **Meu alias está tomando controle do terminal, não quero isso!**
+- **E a desculpa para o café, cadê? Cadê? Cadê?**
 
-Calma lá! Eu vou responder! O problema é que esse post ficou um pouco longo ~~e eu não vou abrir mão dos memes/gifs~~. Solução? Dividir em dois!
+![jim_carrey_frustrado_gif](https://media.tenor.com/images/09c075a32556feeb23c5943c3b5bd496/tenor.gif)
 
-<Inserir Link Parte 2 Aqui>
+Ei, calma lá! Eu vou responder! O problema é que esse post ficou um pouco longo ~~e eu não vou abrir mão dos memes/gifs~~. Solução? Dividir em dois!
+
+<Inserir Link Parte 2 Aqui Em Um Futuro Próximo>
 
 
 <!-- links -->
