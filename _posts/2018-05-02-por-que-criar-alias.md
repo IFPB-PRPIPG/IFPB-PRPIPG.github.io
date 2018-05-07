@@ -37,7 +37,7 @@ Talvez o seu "mapa" fique parecido como:
 
 Essa era a minha. Eu sei! Devia pegar o café/água antes de ir para a máquina, mas nem sempre lembro disso. E em minha defesa dizem que caminhar ajuda a pensar melhor.
 
-Próximo passo:
+**Próximo passo:**
 
 ![programador_na_bicicleta_gif](https://media1.tenor.com/images/7582f8bd7e7af8a03308a0f1492145bf/tenor.gif?itemid=7990692)
 
@@ -47,11 +47,31 @@ Próximo passo:
 
 Boa pergunta! ~~Tinha esquecido...~~
 
-Uma das formas de aumentar a produtividade é evitando o uso do mouse e é aí que entre o *alias*, mas calma, não estou falando para você viver apenas com o teclado. Só estou sugerindo a redução do uso do mouse!  
+Uma das formas de aumentar a produtividade é evitando o uso do mouse e é aí que entra o *alias*, pois com ele podemos simplificar comandos, poupando tempo na digitação, e até fazer com que um mero comando dispare muitos outros.
 
-**Certo. E como podemos fazer isso?**  
+**Exemplo de comando:**
 
-Fico feliz por você ter perguntado! Há duas formas: aprendendo os atalhos existentes da ferramenta que usamos durante o desenvolvimento e criando, quando possível, os nossos próprios atalhos através de *alias*. Nesse artigo vamos aprender o segundo caso.
+``` bash
+$ startdev <django_project>
+```
+
+**Resultado:**
+
+- Abre um browser
+- Abre Spotify
+- Abre Slack
+- Abre Editor de Texto ou IDE do projeto que estamos trabalhando
+  - Prepara o ambiente
+  - Executa um git pull atualizando o código do projeto
+
+**DICA1**: É melhor deixar o git pull por último, pois em caso de conflito ele não vai quebrar a cadeia de comandos.
+
+**Mas além de alias existe outras formas de evitar o uso do mouse?**
+
+Claro! Exemplos:
+
+- Aprendendo os atalhos existentes da ferramenta que usamos durante o desenvolvimento.
+- Aprimorando a ferramenta para a framework que usamos. (Adicionando plugins de Django/Python no Atom, por exemplo.)
 
 
 # Mãos à obra
@@ -63,15 +83,15 @@ Fico feliz por você ter perguntado! Há duas formas: aprendendo os atalhos exis
 Por motivos de organização vamos criar uma pasta na home chamada de **aliases**(plural de alias). Local onde ela vai ficar:
 
 ``` bash
-$ aliases pwd
+$ pwd
 /home/$USER/aliases
 ```
 
 Dentro dessa pasta vamos criar um arquivo executável chamado de **aliasesmanager.sh**.
 
-**OBS1**: Toda vez que criarmos um arquivo executável precisamos inserir na primeira linha: **#!/bin/bash**. Esse comando serve para identificar o interpretador que será utilizado na execução dos comandos.
+**OBS1:** Toda vez que criarmos um arquivo executável precisamos inserir na primeira linha: **#!/bin/bash**. Esse comando serve para identificar o interpretador que será utilizado na execução dos comandos.
 
-**OBS2**: Outro detalhe importante é dar ao arquivo a permissão de execução:
+**OBS2:** Outro detalhe importante é dar ao arquivo a permissão de execução:
 ``` bash
 $ chmod +x aliasesmanager.sh
 ```
@@ -82,16 +102,17 @@ Ele vai ter a lista de todos os alias que vamos criar. Fique vendo!
 
 ### Criando alias
 
-No arquivo **aliasesmanager.sh** vamos adicionar alguns atalhos para comandos um pouco longos que usamos em um projeto Django(caso queira você pode fazer sobre outra framework/linguagem):
+No arquivo **aliasesmanager.sh** vamos adicionar alguns atalhos para comandos um pouco longos que usamos em um projeto Django e Jekyll(caso queira você pode fazer sobre outra framework/linguagem):
 
 ``` bash
 #!/bin/bash
 alias cddjango='/home/$USER/<django_project_dir>'
 alias startenv='source <ambiente>/bin/activate'
 alias startdjango='python manage.py runserver 0.0.0.0:8000'
+alias startjekyll='jekyll server --watch'
 ```
 
-**Opcional**: Tente lembrar de comandos um pouco extenso que você costuma usar durante o desenvolvimento e adicione no arquivo.
+**Opcional:** Tente lembrar de comandos um pouco extenso que você costuma usar durante o desenvolvimento e adicione no arquivo.
 
 Agora precisamos executar o arquivo para que esses aliases fiquem acessíveis no terminal:
 ``` bash
@@ -102,7 +123,7 @@ $ source aliasesmanager.sh
 
 O que achou?
 
-- **Não dava para juntar esses três comandos em um só não?**
+- **Não dava para juntar esses três comandos do Django em um só não?**
 - **E como que eu faço para que o arquivo aliasesmanager.sh seja executado quando minha máquina iniciar?**
 - **Meu alias está tomando controle do terminal, não quero isso!**
 - **E a desculpa para o café, cadê? Cadê? Cadê?**
