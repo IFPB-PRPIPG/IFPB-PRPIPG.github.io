@@ -26,7 +26,7 @@ github_username: 'kelvinromero'
 <!-- Content -->
 Inspirado pelo curso em espanhol, disponível em: [edX.org][EDX_COURSE]
 
-# O vamos aprender
+# O que vamos aprender
 
  - Explorar e analisar potenciais aplicações da minha ideia
  - Eleger os mercados mais promissores e estimar o seu tamanho
