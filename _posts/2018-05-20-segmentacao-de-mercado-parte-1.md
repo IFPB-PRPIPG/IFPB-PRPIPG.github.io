@@ -46,7 +46,7 @@ Essa é uma serie de artigos sobre segmentação de mercado. Segmentar seu merca
 Sumário em breve...
 
 
-## 0. O nascimento de uma ideia
+# 0. O nascimento de uma ideia
 
 Primeira coisa que vamos fazer é imaginar o que negócio pode ser. Não estamos tentando prever o futuro precisamente, mas toda tese começa em uma hipotese. Então, vamos criar uma hipotesse do que pode ser o negócio e nas proximas etapas, vamos testar essa hipotese, e reajusta-la para a realidade. Primeiras perguntas que você deve fazer, se já não as tiver feito, são essas:
 
@@ -57,7 +57,7 @@ Primeira coisa que vamos fazer é imaginar o que negócio pode ser. Não estamos
   - Para nós (empreendedores)
   - Para o cliente (pessoas, segmentos de mercado, outros negócios)
 
-## 1. Segmentação do mercado
+# 1. Segmentação do mercado
 
 Que cada um é diferente, isso não é novidade, mas o que quer dizer quando estamos falando de negócios? Há uma série de razões para segmentarmos o mercado. Um segmento geralmente é representado por uma **persona**; que é um personagem que torna um grupo de pessoas mais tangível, humano e mais fácil para compreendermos suas necessidades.
 
@@ -76,11 +76,11 @@ Fontes: [Wikipedia.org][DEFINITION_SEGMENTACAO], [edX.org][EDX_COURSE]
 
 \*  Não tente mapear o mundo todo
 
-### Começando em três etapas
+## Começando em três etapas
 
 Aqui vai ser a sua primeira interação entre ideia e mundo real. Esteja aberto a novos rumos. Descobrir quem você pode ajudar e se elas querem sua ajuda e como elas querem essa ajuda.
 
-#### Brainstorm
+### Brainstorm
 
 Junte toda sua equipe e responda essas perguntas:
 - Quais as potenciais industrias?
@@ -98,7 +98,7 @@ Junte toda sua equipe e responda essas perguntas:
 
 O resultado disso deve ser uma lista compilada de quem pode ser cliente. E é preciso testar se isso faz sentido.
 
-##### Entrevistas primárias
+#### Entrevistas primárias
 
 Indo direto ao ponto, saia na rua e pergunte aos seus posssíveis clientes. O que elas pensam.
 
@@ -108,7 +108,7 @@ Fonte: [Entrepreneur.com][DEFINITION_PMR]
 
 Não há segredo aqui, pesquise, procure entender se sua hipotese tem algum sentido e fundamentação na realiadade.
 
-##### A primeira fotografia
+#### A primeira fotografia
 
 O que você enxerga nessa primeira imagem? Que ponto devemos observar com mais atenção. A próxima fotografia, vai dar zoom em que? Então você retorna para as questões levantadas durante o Brainstorm. E algumas novas:
 
