@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: "Empreendedorismo 101: Quem é seu cliente?"
+title: "Empreendedorismo 101: Sumário"
 date: 2018-05-20 14:55:22
 image: '/assets/img/'
 description: 'Começando um negócio através da segmentação de mercado.'
@@ -9,10 +9,10 @@ main-class: 'misc'
 tags:
 - empreendedorismo
 - mercado
-categories:
-twitter_text: 'Começando um negócio através da segmentação de mercado.'
-introduction: 'Como segmentar mercado e porque fazê-lo.'
-author_email: 'kelvin.romero@academico.ifpb.edu.br'
+categories: 'empreendedorsimo'
+twitter_text: 'Aprenda a segmentar o mercado e ter uma visão geral do jogo para o qual você vai entrar.'
+introduction: 'Aprenda a segmentar o mercado e ter uma visão geral do jogo para o qual você vai entrar.'
+author_email: 'kelvinromero@gmail.com'
 author: 'Kelvin Romero'
 author_img: 'kelvin.png'
 github_username: 'kelvinromero'
@@ -22,6 +22,8 @@ github_username: 'kelvinromero'
 [EDX_COURSE]:https://www.edx.org/course/entrepreneurship-101-quien-es-tu-cliente-mitx-15-390-1x-1
 [DEFINITION_PMR]:https://www.entrepreneur.com/encyclopedia/primary-market-research
 [DEFINITION_SEGMENTACAO]:https://pt.wikipedia.org/wiki/Segmenta%C3%A7%C3%A3o_de_mercado
+[PARTE_1]:.
+[PARTE_2]:/2018/05/20/segmentacao-de-mercado-parte-1.html
 
 <!-- Content -->
 Inspirado pelo curso em espanhol, disponível em: [edX.org][EDX_COURSE]
@@ -41,10 +43,16 @@ Encontrar um grupo homogêneo de clientes:
 
 # Passo a passo para tirar o negócio do zero.
 
-Essa é uma serie de artigos sobre segmentação de mercado. Segmentar seu mercado é uma das formas de começar um negócio. De entender como é o jogo que você vai fazer parte. Também se aplica a quem já possui um negócio e deseja aprimora-lô. E ainda para determinar o processo de lançamento de um novo produto.
+Essa é uma serie de artigos sobre segmentação de mercado. Segmentar seu mercado é uma das formas de começar um negócio. De entender como é o jogo que você vai fazer parte. Também se aplica a quem já possui um negócio e deseja aprimora-ló. E ainda para determinar o processo de lançamento de um novo produto.
 
-Sumário em breve...
+# Sumário
 
+Etapa 0 - [Nascimento de uma ideia][PARTE_1]
+Etapa 1 - [Segmentação de mercado][PARTE_2]
+Etapa 2 - Mercado inicial
+Etapa 3 - Perfil do usuário final
+Etapa 4 - Tamanho do mercado
+Etapa 5 - Persona ou Personagem
 
 # 0. O nascimento de uma ideia
 
@@ -57,71 +65,8 @@ Primeira coisa que vamos fazer é imaginar o que negócio pode ser. Não estamos
   - Para nós (empreendedores)
   - Para o cliente (pessoas, segmentos de mercado, outros negócios)
 
-# 1. Segmentação do mercado
+> **Resultado**: Depois de respoder essas perguntas, você deve ter uma hipótese, uma ideia do que poderia ser seu negócio.
 
-Que cada um é diferente, isso não é novidade, mas o que quer dizer quando estamos falando de negócios? Há uma série de razões para segmentarmos o mercado. Um segmento geralmente é representado por uma **persona**; que é um personagem que torna um grupo de pessoas mais tangível, humano e mais fácil para compreendermos suas necessidades.
+# A seguir
 
-Não há uma formula, o mercado pode ser segmentado de várias maneiras diferentes, com base no produto vendido, renda, idade, etc. Geralmente uma combinação de características, não só uma isolada.
-
-A importância de segmentar o mercado é saber quais são as personas (segmentos) que mais se beneficiam do nosso negócio e que podem manter nosso negócio vivo (principalmente nos primeiros anos). E encontrar o melhor relacionamento possível para as diferentes fases da vida sua empresa.
-
-> Você só tem um negócio quando há um cliente pagante.
-
-Essa citação é importante, mas não deve ser o alicerce do seu negócio. Negócios e empresas não são só sobre dinheiro, mas sobre construir algo para pessoas. Algo que eu vou debater mais em outro momento. Seguindo para uma definição mais formal:
-
-
-> **Definição:** Segmentação é a categorização sistemática de possíveis mercados para minha idea*. Agrupando em grupos homogêneos e distintos. Agrupar pessoas com base nas respostas e preferências com relação à um produto ou serviço. Em reusmo, agrupe pessoas com gostos parecidos.
-
-Fontes: [Wikipedia.org][DEFINITION_SEGMENTACAO], [edX.org][EDX_COURSE]
-
-\*  Não tente mapear o mundo todo
-
-## Começando em três etapas
-
-Aqui vai ser a sua primeira interação entre ideia e mundo real. Esteja aberto a novos rumos. Descobrir quem você pode ajudar e se elas querem sua ajuda e como elas querem essa ajuda.
-
-### Brainstorm
-
-Junte toda sua equipe e responda essas perguntas:
-- Quais as potenciais industrias?
-- Quais os mercados dentro dessa industria?
-- Quais os segmentos dentro desses mercados?
-- Se houver, quais são seus sub-segmentos?
-- Quem é o usuário final?
-  - Quem é o ser humano que vai utilizar sua solução?
-  - Quem pagaria por sua solução?
-  - Como que ele utilizaria sua solução?
-- Quais são os sementos mais interessantes?
-  - Pode ser por tamanho
-  - Alinhamento de ideais com sua solução
-  - Domínio ou conhecimento daquele mercado que você já possui
-
-O resultado disso deve ser uma lista compilada de quem pode ser cliente. E é preciso testar se isso faz sentido.
-
-#### Entrevistas primárias
-
-Indo direto ao ponto, saia na rua e pergunte aos seus posssíveis clientes. O que elas pensam.
-
-> **Definição:**  Informação direto da fonte, ou seja, potenciais clientes. Você pode fazer isso você mesmo ou contratar uma empresa para tal. E ainda utilizar dados disposníveis na internet.
-
-Fonte: [Entrepreneur.com][DEFINITION_PMR]
-
-Não há segredo aqui, pesquise, procure entender se sua hipotese tem algum sentido e fundamentação na realiadade.
-
-#### A primeira fotografia
-
-O que você enxerga nessa primeira imagem? Que ponto devemos observar com mais atenção. A próxima fotografia, vai dar zoom em que? Então você retorna para as questões levantadas durante o Brainstorm. E algumas novas:
-
-- Quais são as aplicações e benefícios da sua solução?
- - Como o cliente pretende usar?
- - Quais atividades seriam melhoras pela solução?
- - Como o cliente se beneficia?
-- Como os mercados afetam seu produto?
-  - Exemplo: Se você for oferecer para um software para restaurantes, o que é especifico daquele mercado, que altera o produto.
-  - Entre outras características
-- Sobre o mercado, se possível
-  - Qual o seu tamanho?
-  - Quem são os concorrentes?
-  - Parceiros? Fornecedores? Quem são?
-  - Tem outro mercado que parece mais interessante?
-  - Algum que você listou e não é tão bom?
+Vamos começar a por a mão na massa, vamos aprender sobre [SEGMENTAÇÃO DE MERCADO][PARTE_2].
