@@ -48,11 +48,17 @@ Essa é uma serie de artigos sobre segmentação de mercado. Segmentar seu merca
 # Sumário
 
 Etapa 0 - [Nascimento de uma ideia][PARTE_1]
+
 Etapa 1 - [Segmentação de mercado][PARTE_2]
+
 Etapa 2 - Mercado inicial
+
 Etapa 3 - Perfil do usuário final
+
 Etapa 4 - Tamanho do mercado
+
 Etapa 5 - Persona ou Personagem
+
 
 # 0. O nascimento de uma ideia
 
