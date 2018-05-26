@@ -9,7 +9,7 @@ main-class: 'misc'
 tags:
 - empreendedorismo
 - mercado
-categories: 'empreendedorsimo'
+categories:
 twitter_text: 'Aprenda a segmentar o mercado e ter uma visão geral do jogo para o qual você vai entrar.'
 introduction: 'Aprenda a segmentar o mercado e ter uma visão geral do jogo para o qual você vai entrar.'
 author_email: 'kelvinromero@gmail.com'
@@ -22,8 +22,8 @@ github_username: 'kelvinromero'
 [EDX_COURSE]:https://www.edx.org/course/entrepreneurship-101-quien-es-tu-cliente-mitx-15-390-1x-1
 [DEFINITION_PMR]:https://www.entrepreneur.com/encyclopedia/primary-market-research
 [DEFINITION_SEGMENTACAO]:https://pt.wikipedia.org/wiki/Segmenta%C3%A7%C3%A3o_de_mercado
-[PARTE_1]:.
-[PARTE_2]:/2018/05/20/segmentacao-de-mercado-parte-1.html
+[PARTE_1]:2018/05/20/segmentacao-de-mercado-parte-1.html
+[PARTE_2]:/2018/05/26/segmentacao-de-mercado-parte-2.html
 
 <!-- Content -->
 Inspirado pelo curso em espanhol, disponível em: [edX.org][EDX_COURSE]
