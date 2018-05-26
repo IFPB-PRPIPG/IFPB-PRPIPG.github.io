@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title: "Empreendedorismo 101: Sumário"
+title: "Empreendedorismo 101: Segmentação de mercado"
 date: 2018-05-26 10:33:21
 image: '/assets/img/'
-description: 'Começando um negócio através da segmentação de mercado.'
+description: 'Como e porque?'
 main-class: 'misc'
 tags:
 - empreendedorismo
@@ -103,5 +103,8 @@ Não caia nessas daqui:
 - O tamanho de mercado fora da realidade
   - Aqui é saber ler e buscar informações de fontes confiáveis
   - Tenha certeza de que esse número é real
+- Não pesquisar tempo o suficiente
+  - Tenha paciência, pesquisa e se informe bem
+  - Gaste quanto tempo for necessário, caso não haja urgência
 
 Em seguida vamos trabalhar a escolha do mercado inicial. Até o próximo post.
